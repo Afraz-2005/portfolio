@@ -208,7 +208,7 @@ body {
 	color: #33d9b2;
 	transform: translateY(250px);
 	line-height: 1.95em;
-	text-align: justify;
+	text-align: start;
 }
 .hr {
 	width: 20% !important;
@@ -257,6 +257,7 @@ body {
 #about {
 	top: 20px;
 	border: 2px solid #38ffb6;
+	
 }
 #blog {
 	top: 80px;
@@ -265,6 +266,7 @@ body {
 #projects {
 	top: 140px;
 	border: 2px solid #ff5689;
+	font-size: 17px!important;
 }
 #contact {
 	top: 200px;
@@ -737,3 +739,72 @@ body {
 	}
 }
 
+@media (max-width: 1509px){
+    .about{
+        padding: 50px !important;
+    }
+    .display-4{
+        margin: 0px !important;
+    }
+}
+@media (max-width: 794px){
+    .circle{
+        transform: translateX(120px) !important;
+    }
+}
+@media (max-width: 433px){
+    .circle{
+        transform: translateX(30px) !important;
+    }
+}
+@media (max-width: 351px){
+    .circle{
+        transform: translateX(-30px) !important;
+    }
+}
+@media (max-width: 297px){
+    .circle{
+        transform: translateX(-60px) !important;
+    }
+}
+@media (max-width: 255px){
+    .circle{
+        transform: translateX(-80px) !important;
+    }
+}
+#covid{
+    color: #ff4b4b;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+	width: 9px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(0, 255, 229);
+	border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background-color: rgba(81, 72, 123, 0);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #22ffcb;
+  }
+  /*scrollbar end */
+
+  .progress-container {
+	width: 100%;
+	height: 8px;
+	background: rgb(188, 73, 255);
+  }
+  
+  .progress-bar {
+	height: 8px;
+	background: #00ffdd !important;
+	width: 0%;
+  }
+  

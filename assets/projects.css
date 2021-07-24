@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
 :root {
   --bg-color: #ee504f;
-  --font-family: 'Open Sans', sans-serif;
+  --font-family: "Open Sans", sans-serif;
   --font-weight-300: 300;
   --font-weight-400: 400;
   --font-weight-600: 600;
@@ -54,7 +54,16 @@ footer {
   }
 }
 
-.hr4 {
+h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h6 .hr4 {
   width: 30% !important;
   height: 10px !important;
   border-radius: 10px !important;

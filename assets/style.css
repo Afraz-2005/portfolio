@@ -310,7 +310,7 @@ body {
   -webkit-transform: translateY(250px);
           transform: translateY(250px);
   line-height: 1.95em;
-  text-align: justify;
+  text-align: start;
 }
 
 .hr {
@@ -383,6 +383,7 @@ body {
 #projects {
   top: 140px;
   border: 2px solid #ff5689;
+  font-size: 17px !important;
 }
 
 #contact {
@@ -924,5 +925,86 @@ body {
   .h1_2 {
     font-size: 20px;
   }
+}
+
+@media (max-width: 1509px) {
+  .about {
+    padding: 50px !important;
+  }
+  .display-4 {
+    margin: 0px !important;
+  }
+}
+
+@media (max-width: 794px) {
+  .circle {
+    -webkit-transform: translateX(120px) !important;
+            transform: translateX(120px) !important;
+  }
+}
+
+@media (max-width: 433px) {
+  .circle {
+    -webkit-transform: translateX(30px) !important;
+            transform: translateX(30px) !important;
+  }
+}
+
+@media (max-width: 351px) {
+  .circle {
+    -webkit-transform: translateX(-30px) !important;
+            transform: translateX(-30px) !important;
+  }
+}
+
+@media (max-width: 297px) {
+  .circle {
+    -webkit-transform: translateX(-60px) !important;
+            transform: translateX(-60px) !important;
+  }
+}
+
+@media (max-width: 255px) {
+  .circle {
+    -webkit-transform: translateX(-80px) !important;
+            transform: translateX(-80px) !important;
+  }
+}
+
+#covid {
+  color: #ff4b4b;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00ffe5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(81, 72, 123, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #22ffcb;
+}
+
+/*scrollbar end */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #bc49ff;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #00ffdd !important;
+  width: 0%;
 }
 /*# sourceMappingURL=style.css.map */

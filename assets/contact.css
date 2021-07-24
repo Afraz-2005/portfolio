@@ -173,4 +173,34 @@ h6 .hr5 {
 .h1_2 a:hover {
   color: #00ff91 !important;
 }
+
+@media (max-width: 665px) {
+  .h1_2 a, .h1_2 i {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 503px) {
+  .h1_2 a, .h1_2 i {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 409px) {
+  .h1_2 {
+    font-size: 20px !important;
+  }
+  .h1_2 a, .h1_2 i {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 321px) {
+  .h1_2 {
+    font-size: 10px !important;
+  }
+  .h1_2 a, .h1_2 i {
+    font-size: 6px !important;
+  }
+}
 /*# sourceMappingURL=contact.css.map */
