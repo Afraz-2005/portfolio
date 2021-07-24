@@ -1,0 +1,176 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.circle {
+  float: left;
+  -webkit-transform: translateX(580px);
+          transform: translateX(580px);
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  shape-outside: circle();
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  background: #2d2130;
+  background-image: url(../images/chatLOGO1.png) !important;
+  background-size: initial;
+  background-position: center;
+  border: 10px solid #00fff2;
+  border-right-color: #c53252;
+  border-bottom-color: #c53252;
+  border-radius: 50%;
+  z-index: 10;
+  position: relative;
+  -webkit-animation: rotate 2s ease-in-out alternate;
+          animation: rotate 2s ease-in-out alternate;
+}
+
+.fas {
+  color: white !important;
+}
+
+.h1_2 {
+  background-color: #1e1b33;
+  border-radius: 30px;
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 60px !important;
+  -webkit-box-shadow: 10px 10px 20px #ce274b !important;
+          box-shadow: 10px 10px 20px #ce274b !important;
+  font-family: "Otomanopee One", sans-serif !important;
+  font-size: 30px !important;
+}
+
+.about_content {
+  font-size: 20px !important;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(204, 204, 204, 0);
+  border-radius: 20px;
+  resize: vertical;
+  background-color: #7daac7;
+  color: black !important;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #131221;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #1e1b33;
+}
+
+.container {
+  border-radius: 20px;
+  background-color: #4573b8;
+  padding: 20px;
+  font-size: 15px !important;
+  color: #00ff91 !important;
+  -webkit-box-shadow: 10px 10px 20px rgba(44, 113, 187, 0.549);
+          box-shadow: 10px 10px 20px rgba(44, 113, 187, 0.549);
+}
+
+.container ::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.container :-ms-input-placeholder {
+  color: #000000;
+}
+
+.container ::-ms-input-placeholder {
+  color: #000000;
+}
+
+.container ::placeholder {
+  color: #000000;
+}
+
+h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h6 .hr5 {
+  width: 20% !important;
+  height: 10px !important;
+  border-radius: 10px !important;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00ff91), color-stop(#ff5691), to(cyan));
+  background-image: linear-gradient(to right, #00ff91, #ff5691, cyan);
+  opacity: 100 !important;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+#submit {
+  width: 70% !important;
+}
+
+.submitrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.h1_2 a {
+  font-family: "Otomanopee One", sans-serif !important;
+  text-transform: none !important;
+}
+
+.h1_2 a:hover {
+  color: #00ff91 !important;
+}
+/*# sourceMappingURL=contact.css.map */

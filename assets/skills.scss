@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+
+* {box-sizing: border-box;}
+
+.c2 {
+  width: 100%;
+  background-color: rgb(39, 39, 77);
+  border-radius: 10px;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+h3 b {
+  font-family: "Zen Tokyo Zoo", cursive !important;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+
+.h32 {
+  color: #5cc6ff !important;
+}
+
+.html {width: 90%;background-color: #83225b;border-radius: 10px;}
+.css {width: 85%;background-color: #83225b;border-radius: 10px;}
+.js {width: 75%;background-color: #83225b;border-radius: 10px;}
+.py {width: 50%;background-color: #83225b;border-radius: 10px;}
+.java {width: 70%;background-color: #83225b;border-radius: 10px;}
+.cpp {width: 60%;background-color: #83225b;border-radius: 10px;}
+.cs {width: 68%;background-color: #83225b;border-radius: 10px;}
+.c3 {width: 100%;background-color: rgb(255, 94, 137);border-radius: 10px;color: black;}
+
+.ps {width: 95%;background-color: #00c3ff;border-radius: 10px;color: black;}
+.ai {width: 85%;background-color: #00c3ff;border-radius: 10px;color: black;}
+.xd, .fg {width: 80%;background-color: #00c3ff;border-radius: 10px;color: black;}
+.fm {width: 70%;background-color: #00c3ff;border-radius: 10px;color: black;}
+.pr {width: 65%;background-color: #00c3ff;border-radius: 10px;color: black;}
+.dm {width: 50%;background-color: #00c3ff;border-radius: 10px;color: black;}
+
+.hr4 {
+  width: 30% !important;
+  height: 10px !important;
+  border-radius: 10px !important;
+  background-image: linear-gradient(to right, rgb(42, 77, 194), rgb(189, 67, 98));
+  opacity: 100 !important;
+}
+
+.circle {
+  float: left;
+  transform: translateX(580px);
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle();
+  background: rgb(45, 33, 48);
+  background-image: url(../images/computer-programming-logo-by_vexels.png) !important;
+  background-size: cover;
+  background-position: center;
+  border: 10px solid rgb(123, 180, 255) !important;
+  border-right-color: #c5327e !important;
+  border-bottom-color: #c5327e !important;
+  border-radius: 50%;
+  z-index: 10;
+  position: relative;
+  animation: rotate 2s ease-in-out alternate;
+}

@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+:root {
+  --bg-color: #ee504f;
+  --font-family: 'Open Sans', sans-serif;
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-600: 600;
+  --font-weight-800: 800;
+}
+
+.circle {
+  float: left;
+  -webkit-transform: translateX(580px);
+          transform: translateX(580px);
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  shape-outside: circle();
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  background: #2d2130;
+  background-image: url(../images/1c54f7b06d7723c21afc5035bf88a5ef.png) !important;
+  background-size: cover;
+  background-position: center;
+  border: 10px solid #00fff2;
+  border-right-color: #c53252;
+  border-bottom-color: #c53252;
+  border-radius: 50%;
+  z-index: 10;
+  position: relative;
+  -webkit-animation: rotate 2s ease-in-out alternate;
+          animation: rotate 2s ease-in-out alternate;
+}
+
+#laptop > div > div.col-lg-5 {
+  margin-top: 50px;
+}
+
+#laptop > div > div.col-lg-5 > p {
+  font-weight: var(--font-weight-800);
+}
+
+footer {
+  font-size: 15px;
+}
+
+@media (max-width: 991px) {
+  #laptop > div > div.col-lg-5 > p {
+    text-align: center;
+  }
+  #laptop > div > div.col-lg-5 > div {
+    text-align: center;
+  }
+}
+
+.hr4 {
+  width: 30% !important;
+  height: 10px !important;
+  border-radius: 10px !important;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00ff91), color-stop(#ff5691), to(cyan));
+  background-image: linear-gradient(to right, #00ff91, #ff5691, cyan);
+  opacity: 100 !important;
+}
+
+#center {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#o2 a {
+  color: black !important;
+}
+
+.ca {
+  font-family: "Zen Tokyo Zoo", cursive !important;
+  color: #ffffff !important;
+}
+
+.ca .text-danger {
+  font-family: "Zen Tokyo Zoo", cursive !important;
+  color: #b33f3f !important;
+}
+
+.col-lg-5 p {
+  font-family: "Otomanopee One", sans-serif;
+  color: white;
+}
+
+#o2 .button_slide a {
+  font-family: "Otomanopee One", sans-serif !important;
+}
+
+@media (max-width: 1509px) {
+  .about {
+    padding: 50px !important;
+  }
+  .display-4 {
+    margin: 0px !important;
+  }
+}
+
+@media (max-width: 794px) {
+  .circle {
+    -webkit-transform: translateX(120px) !important;
+            transform: translateX(120px) !important;
+  }
+}
+
+@media (max-width: 433px) {
+  .circle {
+    -webkit-transform: translateX(30px) !important;
+            transform: translateX(30px) !important;
+  }
+}
+
+@media (max-width: 351px) {
+  .circle {
+    -webkit-transform: translateX(-30px) !important;
+            transform: translateX(-30px) !important;
+  }
+}
+
+@media (max-width: 297px) {
+  .circle {
+    -webkit-transform: translateX(-60px) !important;
+            transform: translateX(-60px) !important;
+  }
+}
+
+@media (max-width: 255px) {
+  .circle {
+    -webkit-transform: translateX(-80px) !important;
+            transform: translateX(-80px) !important;
+  }
+}
+
+#covid {
+  color: #ff4b4b;
+}
+
+.display-4 {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.624);
+}
+
+.small-display {
+  font-size: 15px !important;
+  font-weight: 200 !important;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.412) !important;
+}
+/*# sourceMappingURL=projects.css.map */
