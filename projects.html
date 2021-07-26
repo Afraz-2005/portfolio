@@ -52,6 +52,63 @@
             </div>
         </div>
     </nav>
+    <div class="toggleNav">
+        <div id="btn">
+            <div id='top'></div>
+            <div id='middle'></div>
+            <div id='bottom'></div>
+        </div>
+        <div id="box">
+            <div id="items">
+                <a href="./index.html">
+                    <div class="item">Home</div>
+                </a>
+                <a href="./skills.html">
+                    <div class="item">Skills</div>
+                </a>
+                <a href="./projects.html">
+                    <div class="item">Projects</div>
+                </a>
+                <a href="./contact.html">
+                    <div class="item">Contact</div>
+                </a>
+            </div>
+        </div>
+        <ul class="ul_logo">
+            <li class="li_logo">
+                <a href="#" class="alogo">
+                    <img src="./images/alogo.png" alt="LOGO" width="60px">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script>
+        const sidebarBox = document.querySelector('#box'),
+            sidebarBtn = document.querySelector('#btn'),
+            pageWrapper = document.querySelector('#page-wrapper');
+
+        sidebarBtn.addEventListener('click', event => {
+            sidebarBtn.classList.toggle('active');
+            sidebarBox.classList.toggle('active');
+        });
+
+        pageWrapper.addEventListener('click', event => {
+
+            if (sidebarBox.classList.contains('active')) {
+                sidebarBtn.classList.remove('active');
+                sidebarBox.classList.remove('active');
+            }
+        });
+
+        window.addEventListener('keydown', event => {
+
+            if (sidebarBox.classList.contains('active') && event.keyCode === 27) {
+                sidebarBtn.classList.remove('active');
+                sidebarBox.classList.remove('active');
+            }
+        });
+    </script>
+
 
     <!-- sidebar starts -->
     <div id="mySidenav" class="sidenav">
@@ -267,6 +324,7 @@
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./scripts/index.js"></script>
+
 
 </body>
 
