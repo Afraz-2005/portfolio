@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
-/* width */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');/* width */
 /* Track */
 /* Handle */
 /* Handle on hover */
@@ -72,10 +71,10 @@
   }
 }
 a {
-  font-family: "Zen Tokyo Zoo", cursive;
+  font-family: 'Poiret One', cursive;  
   text-transform: uppercase;
-  font-weight: 100;
-  color: #fff;
+  font-weight: 300;
+  color: rgb(229, 255, 0);
   text-decoration: none;
 }
 .navbar {
@@ -84,6 +83,28 @@ a {
   width: 100%;
   z-index: 100;
   border-radius: 0px 0px 10px 10px;
+}
+li {
+  margin-bottom: 10px;
+}
+
+.cool-link {
+  color: rgb(0, 255, 251);
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(0, 255, 251);
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  //transition: width .3s;
 }
 * {
   margin: 0;
@@ -128,6 +149,11 @@ body {
   left: 15px;
   cursor: pointer;
   transition: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
+  background-color: #1e1f2b91;
+  padding: 5px;
+  padding-top: 12px;
+  border-radius: 6px;
+  
 }
 #btn div {
   width: 35px;
@@ -266,6 +292,7 @@ body {
 		margin-top: 10px;
 		margin-right: 10px;
 		position: fixed;
+    z-index: 5;
 	}
 }
 .outer {
