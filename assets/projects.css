@@ -33,6 +33,15 @@
           animation: rotate 2s ease-in-out alternate;
 }
 
+.col-lg-7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #laptop > div > div.col-lg-5 {
   margin-top: 50px;
 }
@@ -161,5 +170,14 @@ h6 .hr4 {
   font-size: 15px !important;
   font-weight: 200 !important;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.412) !important;
+}
+
+.hr6 {
+  width: 100% !important;
+  height: 2px !important;
+  border-radius: 10px !important;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00bbb2), to(#00bbb2));
+  background-image: linear-gradient(to right, #00bbb2, #00bbb2);
+  opacity: 100 !important;
 }
 /*# sourceMappingURL=projects.css.map */
