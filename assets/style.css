@@ -243,6 +243,7 @@ body {
 
 #btn.active {
   left: 230px;
+  z-index: 200;
 }
 
 #btn.active div {
