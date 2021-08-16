@@ -267,7 +267,7 @@ body {
 
 #box {
   position: fixed;
-  z-index: 100;
+  z-index: 4;
   overflow: auto;
   top: 0px;
   left: -275px;
