@@ -151,6 +151,9 @@ a {
 
 li {
   margin-bottom: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .cool-link {
@@ -394,7 +397,7 @@ body {
 }
 
 .li_logo a {
-  margin-top: 10px;
+  margin-top: 75px;
   margin-right: 10px;
   position: fixed;
   z-index: 5;
